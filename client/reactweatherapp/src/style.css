@@ -7,3 +7,21 @@
   height: 40rem;
   width: 40rem;
 }
+
+.main-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem;
+}
+
+.temp-table {
+  margin-left: 10%;
+  width: 10%;
+}

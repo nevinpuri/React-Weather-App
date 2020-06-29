@@ -9,7 +9,7 @@ class MapChart extends Component {
 
   render() {
     return (
-      <div className="main-map border border-secondary">
+      <div className="main-map border border-secondary rounded">
         <Map center={this.props.mapPosition} zoom={12}>
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
