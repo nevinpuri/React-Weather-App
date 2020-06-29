@@ -17,7 +17,7 @@ class TempTable extends Component {
           <table className="table text-center">
             <tbody>
               <tr>
-                <th scope="row">🌡️ Temp</th>
+                <th scope="row">Temp</th>
                 <td>{this.props.mapLocations[0].cityTemp}</td>
               </tr>
               <tr>
